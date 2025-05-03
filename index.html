@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Random Image Link</title>
+</head>
+<body>
+  <script>
+    async function main() {
+      const res = await fetch('config.json');
+      const data = await res.json();
+      const links = data.images;
+      const rand = links[Math.floor(Math.random() * links.length)];
+      document.body.innerText = rand;
+    }
+    main();
+  </script>
+</body>
+</html>
