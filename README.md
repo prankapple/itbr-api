@@ -3,7 +3,6 @@ Sigma-api is the most barebones api ever from where you can fetch **italian brai
 
 # How to use
 
-**Example:**
 ```javascript
 function getRandomItalianBrainrot() {
       fetch('https://pcdelatara.github.io/sigma-api/imgdata.json')
@@ -18,3 +17,5 @@ function getRandomItalianBrainrot() {
         });
     }
 ```
+
+**Example:** [Italian Brainrot Picker](https://pcdelatara.github.io/sigma-api)
