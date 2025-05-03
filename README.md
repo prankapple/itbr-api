@@ -5,7 +5,7 @@ Sigma-api is the most barebones api ever from where you can fetch **italian brai
 
 **Example:**
 ```javascript
-function getRandomImage() {
+function getRandomItalianBrainrot() {
       fetch('https://pcdelatara.github.io/sigma-api/imgdata.json')
         .then(res => res.json())
         .then(data => {
